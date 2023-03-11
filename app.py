@@ -4,6 +4,10 @@ st.title('GIẢI PHƯƠNG TRÌNH BẬC NHẤT')
 a = st.number_input('Tham số a')
 b = st.number_input('Tham số b')
 if st.button('Giải'):
-    x = -b/a
-    st.write('Phương trình có 1 nghiệm', x)
+    if a == 0:
+        if b != 0: st.write('Phương trình vô nghiệm')
+        else: st.write('Phương trình có vô số nghiệm')
+    else:
+        x = -b/a
+        st.write('Phương trình có 1 nghiệm', x)
 
