@@ -1,4 +1,5 @@
 import streamlit as st
+import plotly.graph_objects as go
 import numpy as np
 
 st.title('GIẢI PHƯƠNG TRÌNH BẬC NHẤT')
