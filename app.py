@@ -11,5 +11,5 @@ if st.button('Giải'):
         else: st.success('Phương trình có vô số nghiệm')
     else:
         x = -b/a
-        st.success('Phương trình có 1 nghiệm' + str(x))
+        st.success('Phương trình có 1 nghiệm ' + str(x))
 
